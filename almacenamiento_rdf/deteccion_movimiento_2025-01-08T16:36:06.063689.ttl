@@ -1,0 +1,57 @@
+@prefix ns1: <http://example.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/deteccion/movimiento_2025-01-08T16:36:06.063689/coordenadas_0> a ns1:Objeto ;
+    ns1:deteccionAsociada <http://example.org/deteccion/movimiento_2025-01-08T16:36:06.063689> ;
+    ns1:valor "(486, 439, 154, 41)" .
+
+<http://example.org/deteccion/movimiento_2025-01-08T16:36:06.063689/coordenadas_1> a ns1:Objeto ;
+    ns1:deteccionAsociada <http://example.org/deteccion/movimiento_2025-01-08T16:36:06.063689> ;
+    ns1:valor "(71, 351, 29, 75)" .
+
+<http://example.org/deteccion/movimiento_2025-01-08T16:36:06.063689/coordenadas_10> a ns1:Objeto ;
+    ns1:deteccionAsociada <http://example.org/deteccion/movimiento_2025-01-08T16:36:06.063689> ;
+    ns1:valor "(31, 0, 136, 88)" .
+
+<http://example.org/deteccion/movimiento_2025-01-08T16:36:06.063689/coordenadas_2> a ns1:Objeto ;
+    ns1:deteccionAsociada <http://example.org/deteccion/movimiento_2025-01-08T16:36:06.063689> ;
+    ns1:valor "(143, 293, 40, 42)" .
+
+<http://example.org/deteccion/movimiento_2025-01-08T16:36:06.063689/coordenadas_3> a ns1:Objeto ;
+    ns1:deteccionAsociada <http://example.org/deteccion/movimiento_2025-01-08T16:36:06.063689> ;
+    ns1:valor "(363, 284, 42, 57)" .
+
+<http://example.org/deteccion/movimiento_2025-01-08T16:36:06.063689/coordenadas_4> a ns1:Objeto ;
+    ns1:deteccionAsociada <http://example.org/deteccion/movimiento_2025-01-08T16:36:06.063689> ;
+    ns1:valor "(202, 66, 28, 26)" .
+
+<http://example.org/deteccion/movimiento_2025-01-08T16:36:06.063689/coordenadas_5> a ns1:Objeto ;
+    ns1:deteccionAsociada <http://example.org/deteccion/movimiento_2025-01-08T16:36:06.063689> ;
+    ns1:valor "(0, 60, 640, 420)" .
+
+<http://example.org/deteccion/movimiento_2025-01-08T16:36:06.063689/coordenadas_6> a ns1:Objeto ;
+    ns1:deteccionAsociada <http://example.org/deteccion/movimiento_2025-01-08T16:36:06.063689> ;
+    ns1:valor "(60, 55, 45, 39)" .
+
+<http://example.org/deteccion/movimiento_2025-01-08T16:36:06.063689/coordenadas_7> a ns1:Objeto ;
+    ns1:deteccionAsociada <http://example.org/deteccion/movimiento_2025-01-08T16:36:06.063689> ;
+    ns1:valor "(448, 38, 122, 76)" .
+
+<http://example.org/deteccion/movimiento_2025-01-08T16:36:06.063689/coordenadas_8> a ns1:Objeto ;
+    ns1:deteccionAsociada <http://example.org/deteccion/movimiento_2025-01-08T16:36:06.063689> ;
+    ns1:valor "(515, 15, 125, 91)" .
+
+<http://example.org/deteccion/movimiento_2025-01-08T16:36:06.063689/coordenadas_9> a ns1:Objeto ;
+    ns1:deteccionAsociada <http://example.org/deteccion/movimiento_2025-01-08T16:36:06.063689> ;
+    ns1:valor "(155, 14, 123, 94)" .
+
+<http://example.org/usuario/192.168.31.23> a ns1:Usuario ;
+    ns1:email "cliente_192_168_31_23@example.com" ;
+    ns1:nombre "Cliente ('192.168.31.23', 52508)" .
+
+<http://example.org/deteccion/movimiento_2025-01-08T16:36:06.063689> a ns1:Deteccion ;
+    ns1:motion_detected true ;
+    ns1:realizadaPor <http://example.org/usuario/192.168.31.23> ;
+    ns1:servicio "movimiento" ;
+    ns1:timestamp "2025-01-08T16:36:06.063689"^^xsd:dateTime .
+

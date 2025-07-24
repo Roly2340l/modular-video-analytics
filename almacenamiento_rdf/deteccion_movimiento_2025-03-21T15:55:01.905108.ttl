@@ -1,0 +1,41 @@
+@prefix ns1: <http://example.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/deteccion/movimiento_2025-03-21T15:55:01.905108/coordenadas_0> a ns1:Objeto ;
+    ns1:deteccionAsociada <http://example.org/deteccion/movimiento_2025-03-21T15:55:01.905108> ;
+    ns1:valor "(187, 461, 57, 19)" .
+
+<http://example.org/deteccion/movimiento_2025-03-21T15:55:01.905108/coordenadas_1> a ns1:Objeto ;
+    ns1:deteccionAsociada <http://example.org/deteccion/movimiento_2025-03-21T15:55:01.905108> ;
+    ns1:valor "(39, 433, 33, 47)" .
+
+<http://example.org/deteccion/movimiento_2025-03-21T15:55:01.905108/coordenadas_2> a ns1:Objeto ;
+    ns1:deteccionAsociada <http://example.org/deteccion/movimiento_2025-03-21T15:55:01.905108> ;
+    ns1:valor "(6, 432, 32, 25)" .
+
+<http://example.org/deteccion/movimiento_2025-03-21T15:55:01.905108/coordenadas_3> a ns1:Objeto ;
+    ns1:deteccionAsociada <http://example.org/deteccion/movimiento_2025-03-21T15:55:01.905108> ;
+    ns1:valor "(84, 393, 163, 87)" .
+
+<http://example.org/deteccion/movimiento_2025-03-21T15:55:01.905108/coordenadas_4> a ns1:Objeto ;
+    ns1:deteccionAsociada <http://example.org/deteccion/movimiento_2025-03-21T15:55:01.905108> ;
+    ns1:valor "(39, 344, 20, 80)" .
+
+<http://example.org/deteccion/movimiento_2025-03-21T15:55:01.905108/coordenadas_5> a ns1:Objeto ;
+    ns1:deteccionAsociada <http://example.org/deteccion/movimiento_2025-03-21T15:55:01.905108> ;
+    ns1:valor "(0, 297, 39, 126)" .
+
+<http://example.org/deteccion/movimiento_2025-03-21T15:55:01.905108/coordenadas_6> a ns1:Objeto ;
+    ns1:deteccionAsociada <http://example.org/deteccion/movimiento_2025-03-21T15:55:01.905108> ;
+    ns1:valor "(60, 267, 53, 157)" .
+
+<http://example.org/usuario/192.168.31.79> a ns1:Usuario ;
+    ns1:email "cliente_192_168_31_79@example.com" ;
+    ns1:nombre "Cliente ('192.168.31.79', 56662)" .
+
+<http://example.org/deteccion/movimiento_2025-03-21T15:55:01.905108> a ns1:Deteccion ;
+    ns1:motion_detected true ;
+    ns1:realizadaPor <http://example.org/usuario/192.168.31.79> ;
+    ns1:servicio "movimiento" ;
+    ns1:timestamp "2025-03-21T15:55:01.905108"^^xsd:dateTime .
+

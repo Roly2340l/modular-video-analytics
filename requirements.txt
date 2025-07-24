@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+websockets
+opencv-python
+numpy
+requests
+rdflib
+python-jose
+pillow
+torch
+torchvision
+ultralytics

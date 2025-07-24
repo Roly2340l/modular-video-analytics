@@ -1,0 +1,73 @@
+@prefix ns1: <http://example.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/deteccion/movimiento_2025-01-08T16:42:05.729442/coordenadas_0> a ns1:Objeto ;
+    ns1:deteccionAsociada <http://example.org/deteccion/movimiento_2025-01-08T16:42:05.729442> ;
+    ns1:valor "(333, 443, 18, 37)" .
+
+<http://example.org/deteccion/movimiento_2025-01-08T16:42:05.729442/coordenadas_1> a ns1:Objeto ;
+    ns1:deteccionAsociada <http://example.org/deteccion/movimiento_2025-01-08T16:42:05.729442> ;
+    ns1:valor "(289, 443, 51, 37)" .
+
+<http://example.org/deteccion/movimiento_2025-01-08T16:42:05.729442/coordenadas_10> a ns1:Objeto ;
+    ns1:deteccionAsociada <http://example.org/deteccion/movimiento_2025-01-08T16:42:05.729442> ;
+    ns1:valor "(213, 214, 63, 81)" .
+
+<http://example.org/deteccion/movimiento_2025-01-08T16:42:05.729442/coordenadas_11> a ns1:Objeto ;
+    ns1:deteccionAsociada <http://example.org/deteccion/movimiento_2025-01-08T16:42:05.729442> ;
+    ns1:valor "(148, 213, 68, 201)" .
+
+<http://example.org/deteccion/movimiento_2025-01-08T16:42:05.729442/coordenadas_12> a ns1:Objeto ;
+    ns1:deteccionAsociada <http://example.org/deteccion/movimiento_2025-01-08T16:42:05.729442> ;
+    ns1:valor "(318, 200, 44, 55)" .
+
+<http://example.org/deteccion/movimiento_2025-01-08T16:42:05.729442/coordenadas_13> a ns1:Objeto ;
+    ns1:deteccionAsociada <http://example.org/deteccion/movimiento_2025-01-08T16:42:05.729442> ;
+    ns1:valor "(299, 3, 97, 30)" .
+
+<http://example.org/deteccion/movimiento_2025-01-08T16:42:05.729442/coordenadas_14> a ns1:Objeto ;
+    ns1:deteccionAsociada <http://example.org/deteccion/movimiento_2025-01-08T16:42:05.729442> ;
+    ns1:valor "(213, 3, 84, 61)" .
+
+<http://example.org/deteccion/movimiento_2025-01-08T16:42:05.729442/coordenadas_2> a ns1:Objeto ;
+    ns1:deteccionAsociada <http://example.org/deteccion/movimiento_2025-01-08T16:42:05.729442> ;
+    ns1:valor "(193, 424, 61, 51)" .
+
+<http://example.org/deteccion/movimiento_2025-01-08T16:42:05.729442/coordenadas_3> a ns1:Objeto ;
+    ns1:deteccionAsociada <http://example.org/deteccion/movimiento_2025-01-08T16:42:05.729442> ;
+    ns1:valor "(341, 399, 46, 46)" .
+
+<http://example.org/deteccion/movimiento_2025-01-08T16:42:05.729442/coordenadas_4> a ns1:Objeto ;
+    ns1:deteccionAsociada <http://example.org/deteccion/movimiento_2025-01-08T16:42:05.729442> ;
+    ns1:valor "(215, 385, 141, 89)" .
+
+<http://example.org/deteccion/movimiento_2025-01-08T16:42:05.729442/coordenadas_5> a ns1:Objeto ;
+    ns1:deteccionAsociada <http://example.org/deteccion/movimiento_2025-01-08T16:42:05.729442> ;
+    ns1:valor "(125, 379, 37, 101)" .
+
+<http://example.org/deteccion/movimiento_2025-01-08T16:42:05.729442/coordenadas_6> a ns1:Objeto ;
+    ns1:deteccionAsociada <http://example.org/deteccion/movimiento_2025-01-08T16:42:05.729442> ;
+    ns1:valor "(189, 341, 121, 78)" .
+
+<http://example.org/deteccion/movimiento_2025-01-08T16:42:05.729442/coordenadas_7> a ns1:Objeto ;
+    ns1:deteccionAsociada <http://example.org/deteccion/movimiento_2025-01-08T16:42:05.729442> ;
+    ns1:valor "(247, 335, 97, 88)" .
+
+<http://example.org/deteccion/movimiento_2025-01-08T16:42:05.729442/coordenadas_8> a ns1:Objeto ;
+    ns1:deteccionAsociada <http://example.org/deteccion/movimiento_2025-01-08T16:42:05.729442> ;
+    ns1:valor "(196, 278, 39, 25)" .
+
+<http://example.org/deteccion/movimiento_2025-01-08T16:42:05.729442/coordenadas_9> a ns1:Objeto ;
+    ns1:deteccionAsociada <http://example.org/deteccion/movimiento_2025-01-08T16:42:05.729442> ;
+    ns1:valor "(259, 216, 90, 79)" .
+
+<http://example.org/usuario/192.168.31.79> a ns1:Usuario ;
+    ns1:email "cliente_192_168_31_79@example.com" ;
+    ns1:nombre "Cliente ('192.168.31.79', 43462)" .
+
+<http://example.org/deteccion/movimiento_2025-01-08T16:42:05.729442> a ns1:Deteccion ;
+    ns1:motion_detected true ;
+    ns1:realizadaPor <http://example.org/usuario/192.168.31.79> ;
+    ns1:servicio "movimiento" ;
+    ns1:timestamp "2025-01-08T16:42:05.729442"^^xsd:dateTime .
+

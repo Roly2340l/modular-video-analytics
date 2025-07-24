@@ -1,0 +1,30 @@
+@prefix ns1: <http://example.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/deteccion/objetos_2025-03-21T16:02:18.718067/detecciones_0> a ns1:Objeto ;
+    ns1:confidence 4.038592e-01 ;
+    ns1:coordinates "[289, 105, 635, 475]" ;
+    ns1:deteccionAsociada <http://example.org/deteccion/objetos_2025-03-21T16:02:18.718067> ;
+    ns1:label "person" .
+
+<http://example.org/deteccion/objetos_2025-03-21T16:02:18.718067/detecciones_1> a ns1:Objeto ;
+    ns1:confidence 3.289711e-01 ;
+    ns1:coordinates "[475, 98, 640, 480]" ;
+    ns1:deteccionAsociada <http://example.org/deteccion/objetos_2025-03-21T16:02:18.718067> ;
+    ns1:label "person" .
+
+<http://example.org/deteccion/objetos_2025-03-21T16:02:18.718067/detecciones_2> a ns1:Objeto ;
+    ns1:confidence 2.629818e-01 ;
+    ns1:coordinates "[68, 186, 579, 477]" ;
+    ns1:deteccionAsociada <http://example.org/deteccion/objetos_2025-03-21T16:02:18.718067> ;
+    ns1:label "person" .
+
+<http://example.org/usuario/192.168.31.23> a ns1:Usuario ;
+    ns1:email "cliente_192_168_31_23@example.com" ;
+    ns1:nombre "Cliente ('192.168.31.23', 41936)" .
+
+<http://example.org/deteccion/objetos_2025-03-21T16:02:18.718067> a ns1:Deteccion ;
+    ns1:realizadaPor <http://example.org/usuario/192.168.31.23> ;
+    ns1:servicio "objetos" ;
+    ns1:timestamp "2025-03-21T16:02:18.718067"^^xsd:dateTime .
+

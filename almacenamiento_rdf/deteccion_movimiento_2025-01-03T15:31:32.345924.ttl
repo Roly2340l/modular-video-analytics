@@ -1,0 +1,41 @@
+@prefix ns1: <http://example.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/deteccion/movimiento_2025-01-03T15:31:32.345924/coordenadas_0> a ns1:Objeto ;
+    ns1:deteccionAsociada <http://example.org/deteccion/movimiento_2025-01-03T15:31:32.345924> ;
+    ns1:valor "(572, 354, 42, 66)" .
+
+<http://example.org/deteccion/movimiento_2025-01-03T15:31:32.345924/coordenadas_1> a ns1:Objeto ;
+    ns1:deteccionAsociada <http://example.org/deteccion/movimiento_2025-01-03T15:31:32.345924> ;
+    ns1:valor "(602, 307, 38, 18)" .
+
+<http://example.org/deteccion/movimiento_2025-01-03T15:31:32.345924/coordenadas_2> a ns1:Objeto ;
+    ns1:deteccionAsociada <http://example.org/deteccion/movimiento_2025-01-03T15:31:32.345924> ;
+    ns1:valor "(216, 284, 32, 72)" .
+
+<http://example.org/deteccion/movimiento_2025-01-03T15:31:32.345924/coordenadas_3> a ns1:Objeto ;
+    ns1:deteccionAsociada <http://example.org/deteccion/movimiento_2025-01-03T15:31:32.345924> ;
+    ns1:valor "(191, 262, 21, 57)" .
+
+<http://example.org/deteccion/movimiento_2025-01-03T15:31:32.345924/coordenadas_4> a ns1:Objeto ;
+    ns1:deteccionAsociada <http://example.org/deteccion/movimiento_2025-01-03T15:31:32.345924> ;
+    ns1:valor "(551, 242, 35, 42)" .
+
+<http://example.org/deteccion/movimiento_2025-01-03T15:31:32.345924/coordenadas_5> a ns1:Objeto ;
+    ns1:deteccionAsociada <http://example.org/deteccion/movimiento_2025-01-03T15:31:32.345924> ;
+    ns1:valor "(621, 223, 19, 40)" .
+
+<http://example.org/deteccion/movimiento_2025-01-03T15:31:32.345924/coordenadas_6> a ns1:Objeto ;
+    ns1:deteccionAsociada <http://example.org/deteccion/movimiento_2025-01-03T15:31:32.345924> ;
+    ns1:valor "(136, 192, 38, 56)" .
+
+<http://example.org/usuario/106766374054735392042> a ns1:Usuario ;
+    ns1:email "rolinson.begazo@ucsp.edu.pe" ;
+    ns1:nombre "Rolinson Jhiampier Begazo Huamani" .
+
+<http://example.org/deteccion/movimiento_2025-01-03T15:31:32.345924> a ns1:Deteccion ;
+    ns1:motion_detected true ;
+    ns1:realizadaPor <http://example.org/usuario/106766374054735392042> ;
+    ns1:servicio "movimiento" ;
+    ns1:timestamp "2025-01-03T15:31:32.345924"^^xsd:dateTime .
+

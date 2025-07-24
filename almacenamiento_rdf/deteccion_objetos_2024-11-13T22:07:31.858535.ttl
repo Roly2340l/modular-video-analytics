@@ -1,0 +1,24 @@
+@prefix ns1: <http://example.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/deteccion/objetos_2024-11-13T22:07:31.858535/detecciones_0> a ns1:Objeto ;
+    ns1:confidence 5.436278e-01 ;
+    ns1:coordinates "[154, 0, 634, 480]" ;
+    ns1:deteccionAsociada <http://example.org/deteccion/objetos_2024-11-13T22:07:31.858535> ;
+    ns1:label "person" .
+
+<http://example.org/deteccion/objetos_2024-11-13T22:07:31.858535/detecciones_1> a ns1:Objeto ;
+    ns1:confidence 3.847595e-01 ;
+    ns1:coordinates "[201, 196, 302, 338]" ;
+    ns1:deteccionAsociada <http://example.org/deteccion/objetos_2024-11-13T22:07:31.858535> ;
+    ns1:label "person" .
+
+<http://example.org/usuario/106766374054735392042> a ns1:Usuario ;
+    ns1:email "rolinson.begazo@ucsp.edu.pe" ;
+    ns1:nombre "Rolinson Jhiampier Begazo Huamani" .
+
+<http://example.org/deteccion/objetos_2024-11-13T22:07:31.858535> a ns1:Deteccion ;
+    ns1:realizadaPor <http://example.org/usuario/106766374054735392042> ;
+    ns1:servicio "objetos" ;
+    ns1:timestamp "2024-11-13T22:07:31.858535"^^xsd:dateTime .
+

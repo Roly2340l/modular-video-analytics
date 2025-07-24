@@ -1,0 +1,73 @@
+@prefix ns1: <http://example.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/deteccion/movimiento_2025-01-03T15:43:12.912948/coordenadas_0> a ns1:Objeto ;
+    ns1:deteccionAsociada <http://example.org/deteccion/movimiento_2025-01-03T15:43:12.912948> ;
+    ns1:valor "(8, 374, 145, 102)" .
+
+<http://example.org/deteccion/movimiento_2025-01-03T15:43:12.912948/coordenadas_1> a ns1:Objeto ;
+    ns1:deteccionAsociada <http://example.org/deteccion/movimiento_2025-01-03T15:43:12.912948> ;
+    ns1:valor "(275, 341, 35, 31)" .
+
+<http://example.org/deteccion/movimiento_2025-01-03T15:43:12.912948/coordenadas_10> a ns1:Objeto ;
+    ns1:deteccionAsociada <http://example.org/deteccion/movimiento_2025-01-03T15:43:12.912948> ;
+    ns1:valor "(263, 141, 73, 57)" .
+
+<http://example.org/deteccion/movimiento_2025-01-03T15:43:12.912948/coordenadas_11> a ns1:Objeto ;
+    ns1:deteccionAsociada <http://example.org/deteccion/movimiento_2025-01-03T15:43:12.912948> ;
+    ns1:valor "(43, 131, 100, 178)" .
+
+<http://example.org/deteccion/movimiento_2025-01-03T15:43:12.912948/coordenadas_12> a ns1:Objeto ;
+    ns1:deteccionAsociada <http://example.org/deteccion/movimiento_2025-01-03T15:43:12.912948> ;
+    ns1:valor "(108, 116, 20, 52)" .
+
+<http://example.org/deteccion/movimiento_2025-01-03T15:43:12.912948/coordenadas_13> a ns1:Objeto ;
+    ns1:deteccionAsociada <http://example.org/deteccion/movimiento_2025-01-03T15:43:12.912948> ;
+    ns1:valor "(130, 84, 32, 39)" .
+
+<http://example.org/deteccion/movimiento_2025-01-03T15:43:12.912948/coordenadas_14> a ns1:Objeto ;
+    ns1:deteccionAsociada <http://example.org/deteccion/movimiento_2025-01-03T15:43:12.912948> ;
+    ns1:valor "(200, 81, 28, 30)" .
+
+<http://example.org/deteccion/movimiento_2025-01-03T15:43:12.912948/coordenadas_2> a ns1:Objeto ;
+    ns1:deteccionAsociada <http://example.org/deteccion/movimiento_2025-01-03T15:43:12.912948> ;
+    ns1:valor "(155, 298, 182, 126)" .
+
+<http://example.org/deteccion/movimiento_2025-01-03T15:43:12.912948/coordenadas_3> a ns1:Objeto ;
+    ns1:deteccionAsociada <http://example.org/deteccion/movimiento_2025-01-03T15:43:12.912948> ;
+    ns1:valor "(301, 276, 41, 23)" .
+
+<http://example.org/deteccion/movimiento_2025-01-03T15:43:12.912948/coordenadas_4> a ns1:Objeto ;
+    ns1:deteccionAsociada <http://example.org/deteccion/movimiento_2025-01-03T15:43:12.912948> ;
+    ns1:valor "(241, 245, 41, 55)" .
+
+<http://example.org/deteccion/movimiento_2025-01-03T15:43:12.912948/coordenadas_5> a ns1:Objeto ;
+    ns1:deteccionAsociada <http://example.org/deteccion/movimiento_2025-01-03T15:43:12.912948> ;
+    ns1:valor "(159, 201, 115, 84)" .
+
+<http://example.org/deteccion/movimiento_2025-01-03T15:43:12.912948/coordenadas_6> a ns1:Objeto ;
+    ns1:deteccionAsociada <http://example.org/deteccion/movimiento_2025-01-03T15:43:12.912948> ;
+    ns1:valor "(99, 178, 100, 80)" .
+
+<http://example.org/deteccion/movimiento_2025-01-03T15:43:12.912948/coordenadas_7> a ns1:Objeto ;
+    ns1:deteccionAsociada <http://example.org/deteccion/movimiento_2025-01-03T15:43:12.912948> ;
+    ns1:valor "(175, 169, 31, 26)" .
+
+<http://example.org/deteccion/movimiento_2025-01-03T15:43:12.912948/coordenadas_8> a ns1:Objeto ;
+    ns1:deteccionAsociada <http://example.org/deteccion/movimiento_2025-01-03T15:43:12.912948> ;
+    ns1:valor "(298, 168, 34, 27)" .
+
+<http://example.org/deteccion/movimiento_2025-01-03T15:43:12.912948/coordenadas_9> a ns1:Objeto ;
+    ns1:deteccionAsociada <http://example.org/deteccion/movimiento_2025-01-03T15:43:12.912948> ;
+    ns1:valor "(15, 162, 64, 198)" .
+
+<http://example.org/usuario/127.0.0.1> a ns1:Usuario ;
+    ns1:email "cliente_127_0_0_1@example.com" ;
+    ns1:nombre "Cliente ('127.0.0.1', 44484)" .
+
+<http://example.org/deteccion/movimiento_2025-01-03T15:43:12.912948> a ns1:Deteccion ;
+    ns1:motion_detected true ;
+    ns1:realizadaPor <http://example.org/usuario/127.0.0.1> ;
+    ns1:servicio "movimiento" ;
+    ns1:timestamp "2025-01-03T15:43:12.912948"^^xsd:dateTime .
+

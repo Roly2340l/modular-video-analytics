@@ -1,0 +1,24 @@
+@prefix ns1: <http://example.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/deteccion/objetos_2025-01-03T15:43:32.373345/detecciones_0> a ns1:Objeto ;
+    ns1:confidence 3.819198e-01 ;
+    ns1:coordinates "[0, 71, 237, 465]" ;
+    ns1:deteccionAsociada <http://example.org/deteccion/objetos_2025-01-03T15:43:32.373345> ;
+    ns1:label "person" .
+
+<http://example.org/deteccion/objetos_2025-01-03T15:43:32.373345/detecciones_1> a ns1:Objeto ;
+    ns1:confidence 2.845334e-01 ;
+    ns1:coordinates "[52, 48, 630, 477]" ;
+    ns1:deteccionAsociada <http://example.org/deteccion/objetos_2025-01-03T15:43:32.373345> ;
+    ns1:label "person" .
+
+<http://example.org/usuario/127.0.0.1> a ns1:Usuario ;
+    ns1:email "cliente_127_0_0_1@example.com" ;
+    ns1:nombre "Cliente ('127.0.0.1', 50362)" .
+
+<http://example.org/deteccion/objetos_2025-01-03T15:43:32.373345> a ns1:Deteccion ;
+    ns1:realizadaPor <http://example.org/usuario/127.0.0.1> ;
+    ns1:servicio "objetos" ;
+    ns1:timestamp "2025-01-03T15:43:32.373345"^^xsd:dateTime .
+

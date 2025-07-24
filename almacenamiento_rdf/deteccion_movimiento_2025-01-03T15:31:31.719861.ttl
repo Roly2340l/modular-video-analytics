@@ -1,0 +1,45 @@
+@prefix ns1: <http://example.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/deteccion/movimiento_2025-01-03T15:31:31.719861/coordenadas_0> a ns1:Objeto ;
+    ns1:deteccionAsociada <http://example.org/deteccion/movimiento_2025-01-03T15:31:31.719861> ;
+    ns1:valor "(0, 408, 110, 38)" .
+
+<http://example.org/deteccion/movimiento_2025-01-03T15:31:31.719861/coordenadas_1> a ns1:Objeto ;
+    ns1:deteccionAsociada <http://example.org/deteccion/movimiento_2025-01-03T15:31:31.719861> ;
+    ns1:valor "(167, 283, 62, 65)" .
+
+<http://example.org/deteccion/movimiento_2025-01-03T15:31:31.719861/coordenadas_2> a ns1:Objeto ;
+    ns1:deteccionAsociada <http://example.org/deteccion/movimiento_2025-01-03T15:31:31.719861> ;
+    ns1:valor "(122, 189, 49, 78)" .
+
+<http://example.org/deteccion/movimiento_2025-01-03T15:31:31.719861/coordenadas_3> a ns1:Objeto ;
+    ns1:deteccionAsociada <http://example.org/deteccion/movimiento_2025-01-03T15:31:31.719861> ;
+    ns1:valor "(86, 181, 46, 112)" .
+
+<http://example.org/deteccion/movimiento_2025-01-03T15:31:31.719861/coordenadas_4> a ns1:Objeto ;
+    ns1:deteccionAsociada <http://example.org/deteccion/movimiento_2025-01-03T15:31:31.719861> ;
+    ns1:valor "(105, 156, 113, 247)" .
+
+<http://example.org/deteccion/movimiento_2025-01-03T15:31:31.719861/coordenadas_5> a ns1:Objeto ;
+    ns1:deteccionAsociada <http://example.org/deteccion/movimiento_2025-01-03T15:31:31.719861> ;
+    ns1:valor "(6, 149, 93, 127)" .
+
+<http://example.org/deteccion/movimiento_2025-01-03T15:31:31.719861/coordenadas_6> a ns1:Objeto ;
+    ns1:deteccionAsociada <http://example.org/deteccion/movimiento_2025-01-03T15:31:31.719861> ;
+    ns1:valor "(47, 113, 33, 39)" .
+
+<http://example.org/deteccion/movimiento_2025-01-03T15:31:31.719861/coordenadas_7> a ns1:Objeto ;
+    ns1:deteccionAsociada <http://example.org/deteccion/movimiento_2025-01-03T15:31:31.719861> ;
+    ns1:valor "(107, 110, 38, 63)" .
+
+<http://example.org/usuario/106766374054735392042> a ns1:Usuario ;
+    ns1:email "rolinson.begazo@ucsp.edu.pe" ;
+    ns1:nombre "Rolinson Jhiampier Begazo Huamani" .
+
+<http://example.org/deteccion/movimiento_2025-01-03T15:31:31.719861> a ns1:Deteccion ;
+    ns1:motion_detected true ;
+    ns1:realizadaPor <http://example.org/usuario/106766374054735392042> ;
+    ns1:servicio "movimiento" ;
+    ns1:timestamp "2025-01-03T15:31:31.719861"^^xsd:dateTime .
+

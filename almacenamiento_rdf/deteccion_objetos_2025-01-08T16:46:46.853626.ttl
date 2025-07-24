@@ -1,0 +1,60 @@
+@prefix ns1: <http://example.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/deteccion/objetos_2025-01-08T16:46:46.853626/detecciones_0> a ns1:Objeto ;
+    ns1:confidence 8.637151e-01 ;
+    ns1:coordinates "[1, 299, 228, 478]" ;
+    ns1:deteccionAsociada <http://example.org/deteccion/objetos_2025-01-08T16:46:46.853626> ;
+    ns1:label "laptop" .
+
+<http://example.org/deteccion/objetos_2025-01-08T16:46:46.853626/detecciones_1> a ns1:Objeto ;
+    ns1:confidence 7.959039e-01 ;
+    ns1:coordinates "[171, 157, 450, 480]" ;
+    ns1:deteccionAsociada <http://example.org/deteccion/objetos_2025-01-08T16:46:46.853626> ;
+    ns1:label "person" .
+
+<http://example.org/deteccion/objetos_2025-01-08T16:46:46.853626/detecciones_2> a ns1:Objeto ;
+    ns1:confidence 5.541782e-01 ;
+    ns1:coordinates "[1, 6, 219, 235]" ;
+    ns1:deteccionAsociada <http://example.org/deteccion/objetos_2025-01-08T16:46:46.853626> ;
+    ns1:label "tv" .
+
+<http://example.org/deteccion/objetos_2025-01-08T16:46:46.853626/detecciones_3> a ns1:Objeto ;
+    ns1:confidence 4.88481e-01 ;
+    ns1:coordinates "[565, 277, 582, 314]" ;
+    ns1:deteccionAsociada <http://example.org/deteccion/objetos_2025-01-08T16:46:46.853626> ;
+    ns1:label "cup" .
+
+<http://example.org/deteccion/objetos_2025-01-08T16:46:46.853626/detecciones_4> a ns1:Objeto ;
+    ns1:confidence 4.876754e-01 ;
+    ns1:coordinates "[495, 202, 639, 301]" ;
+    ns1:deteccionAsociada <http://example.org/deteccion/objetos_2025-01-08T16:46:46.853626> ;
+    ns1:label "laptop" .
+
+<http://example.org/deteccion/objetos_2025-01-08T16:46:46.853626/detecciones_5> a ns1:Objeto ;
+    ns1:confidence 3.011646e-01 ;
+    ns1:coordinates "[169, 368, 202, 387]" ;
+    ns1:deteccionAsociada <http://example.org/deteccion/objetos_2025-01-08T16:46:46.853626> ;
+    ns1:label "mouse" .
+
+<http://example.org/deteccion/objetos_2025-01-08T16:46:46.853626/detecciones_6> a ns1:Objeto ;
+    ns1:confidence 2.916592e-01 ;
+    ns1:coordinates "[119, 472, 151, 479]" ;
+    ns1:deteccionAsociada <http://example.org/deteccion/objetos_2025-01-08T16:46:46.853626> ;
+    ns1:label "mouse" .
+
+<http://example.org/deteccion/objetos_2025-01-08T16:46:46.853626/detecciones_7> a ns1:Objeto ;
+    ns1:confidence 2.511297e-01 ;
+    ns1:coordinates "[398, 434, 439, 480]" ;
+    ns1:deteccionAsociada <http://example.org/deteccion/objetos_2025-01-08T16:46:46.853626> ;
+    ns1:label "chair" .
+
+<http://example.org/usuario/192.168.31.23> a ns1:Usuario ;
+    ns1:email "cliente_192_168_31_23@example.com" ;
+    ns1:nombre "Cliente ('192.168.31.23', 52677)" .
+
+<http://example.org/deteccion/objetos_2025-01-08T16:46:46.853626> a ns1:Deteccion ;
+    ns1:realizadaPor <http://example.org/usuario/192.168.31.23> ;
+    ns1:servicio "objetos" ;
+    ns1:timestamp "2025-01-08T16:46:46.853626"^^xsd:dateTime .
+
