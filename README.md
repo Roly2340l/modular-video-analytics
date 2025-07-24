@@ -93,7 +93,7 @@ cd clientes
 python VisualizadorPepper.py
 ```
 
-## 📊 Consultas RDF
+## Consultas RDF
 
 Puedes consultar las detecciones almacenadas usando el endpoint HTTP:
 
@@ -139,6 +139,9 @@ torch
 torchvision
 ultralytics
 ```
+
+Requerimientos externos:
+- Instalar Kafka 3.9.0 para Scala 2.13
 
 ## Notas finales
 
