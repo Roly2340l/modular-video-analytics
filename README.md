@@ -1,4 +1,4 @@
-# Modular Video Analytics - PE501083407-2023-PROCIENCIA
+# Modular Video Analytics 
 
 Este proyecto implementa un sistema modular de análisis de video en tiempo real.  
 Permite procesar video proveniente de diferentes clientes (webcam local, robot Pepper u otros) mediante módulos personalizables, devolviendo resultados en tiempo real y almacenando detecciones en un modelo semántico RDF.
